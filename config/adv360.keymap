@@ -38,7 +38,7 @@
         label = "ht_x";
         #binding-cells = <2>;
         tapping-term-ms = <200>;
-        bindings = <&kp>, <&kp LEFT_GUI X>;
+        bindings = <&kp &kp>, <LEFT_GUI X>;
     };
 
     ht_c: hold-tap-c {
@@ -46,7 +46,7 @@
         label = "ht_c";
         #binding-cells = <2>;
         tapping-term-ms = <200>;
-        bindings = <&kp>, <&kp LEFT_GUI C>;
+        bindings = <&kp &kp>, <LEFT_GUI C>;
     };
 
     ht_v: hold-tap-v {
@@ -54,7 +54,7 @@
         label = "ht_v";
         #binding-cells = <2>;
         tapping-term-ms = <200>;
-        bindings = <&kp>, <&kp LEFT_GUI V>;
+        bindings = <&kp &kp>, <LEFT_GUI V>;
     };
 };
 
