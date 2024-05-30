@@ -40,7 +40,7 @@
       tapping-term-ms = <200>;
       quick_tap_ms = <175>;
       flavor = "tap-preferred";
-      bindings = <&kp>, <LGUI &kp>;
+      bindings = <&kp>, LGUI(&kp);
     };
   };
 
