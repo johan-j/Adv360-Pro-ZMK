@@ -38,7 +38,8 @@
         label = "ht_x";
         #binding-cells = <2>;
         tapping-term-ms = <200>;
-        bindings = <&kp>, <LCTL(KC_X)>;
+        bindings = <&kp>, <KC_X>;
+        modifiers = <MOD_LGUI>;
     };
 
     ht_c: hold-tap {
@@ -46,7 +47,8 @@
         label = "ht_c";
         #binding-cells = <2>;
         tapping-term-ms = <200>;
-        bindings = <&kp>, <LCTL(KC_C)>;
+        bindings = <&kp>, <KC_C>;
+        modifiers = <MOD_LGUI>;
     };
 
     ht_v: hold-tap {
@@ -54,7 +56,8 @@
         label = "ht_v";
         #binding-cells = <2>;
         tapping-term-ms = <200>;
-        bindings = <&kp>, <LCTL(KC_V)>;
+        bindings = <&kp>, <KC_V>;
+        modifiers = <MOD_LGUI>;
     };
 };
 
